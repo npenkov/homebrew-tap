@@ -1,8 +1,8 @@
 class GitWorktreeRefresh < Formula
   desc "Scan directories for git repos, fetch remotes in parallel, show worktree status"
   homepage "https://github.com/npenkov/git-worktree-refresh"
-  url "https://github.com/npenkov/git-worktree-refresh/archive/refs/tags/v0.2.1.tar.gz"
-  sha256 "f4745c639b03074698d2e4ea59b1ab9a005bd9b5a959f925ab28828e0cab683e"
+  url "https://github.com/npenkov/git-worktree-refresh/archive/refs/tags/v0.3.0.tar.gz"
+  sha256 "0ecb4612a2446ecf159affc5e16afbb1640a8dcca4d0843328aaf6c985adaf91"
   license "MIT"
 
   depends_on "rust" => :build
